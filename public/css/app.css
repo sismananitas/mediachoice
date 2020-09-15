@@ -10946,3 +10946,19 @@ footer {
   color: white;
 }
 
+.container .logo {
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.container .logo img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.container .logo h1 {
+  color: #939393;
+}
+

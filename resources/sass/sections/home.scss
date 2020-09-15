@@ -1,0 +1,16 @@
+.container {
+    .logo {
+        height: 100vh;
+        flex-wrap: wrap;
+        img {
+            width: 80%;
+            display: block;
+            margin: auto;
+            margin-bottom: 1em;
+        }
+        h1 {
+            // text-align: center;
+            color: #939393;
+        }
+    }
+}
