@@ -10968,3 +10968,10 @@ footer {
   color: #939393;
 }
 
+@media (max-width: 590px) {
+  .container .logo h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
