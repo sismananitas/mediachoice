@@ -1,15 +1,17 @@
 .container {
+    max-width: 1200px;
     .logo {
         height: 100vh;
         flex-wrap: wrap;
+        max-width: 800px;
+        margin: auto;
         img {
-            width: 80%;
+            width: 100%;
             display: block;
             margin: auto;
             margin-bottom: 1em;
         }
         h1 {
-            // text-align: center;
             color: #939393;
         }
     }
