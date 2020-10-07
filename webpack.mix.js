@@ -15,9 +15,10 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .extract();
 
-mix.browserSync('http://127.0.0.1:8000')
-
-
 if (mix.inProduction()) {
     mix.version().sourceMaps();
 }
+
+mix.browserSync({
+    proxy: process.env.MIX_APP_URL
+});

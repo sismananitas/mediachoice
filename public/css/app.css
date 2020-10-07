@@ -11008,3 +11008,32 @@ footer {
   color: white;
 }
 
+.container {
+  max-width: 1200px;
+}
+
+.container .logo {
+  height: 100vh;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: auto;
+}
+
+.container .logo img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.container .logo h1 {
+  color: #939393;
+}
+
+@media (max-width: 590px) {
+  .container .logo h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
